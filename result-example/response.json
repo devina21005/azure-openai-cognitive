@@ -1,0 +1,20 @@
+{
+    "id": "0436eb74-13d6-46cb-84fa-633835aaac85",
+    "model": "gpt-35-turbo",
+    "created": 1692760626,
+    "object": "chat.completion.chunk",
+    "choices": [
+        {
+            "messages": [
+                {
+                    "role": "tool",
+                    "content": "{\"citations\": [{\"content\": \"Tugas Individu Manajemen Bisnis\\n\\n\\n\\n\\nDevina Hana Azhara\\n2106751032\\nManajemen Bisnis B\\n\\n\\n\\nPROGRAM STUDI SITEM INFORMASI\\nFAKULTAS ILMU KOMPUTER\\nUNIVERSITAS INDONESIA 2021/2022\\n\\n\\n\\n\\nA.\\nTI_B_DevinaHanaAzhara_2106751032.docx\", \"id\": null, \"title\": null, \"filepath\": \"TI_B_DevinaHanaAzhara_2106751032.docx\", \"url\": \"https://digiservebytelkom.sharepoint.com/sites/MySite/A%20Test/_layouts/15/Doc.aspx?sourcedoc=%7BE8D6491B-6934-426B-88FB-C01870BA0E1B%7D &file =TI_B_DevinaHanaAzhara_2106751032.docx &action =default &mobileredirect =true\", \"metadata\": {\"chunking\": \"orignal document size=8307. Scores=0.3644804 and None.Org Highlight count=1.Filtering to highlight size=77\"}, \"chunk_id\": \"0\"}, {\"content\": \"Tugas Individu Manajemen Bisnis \\n\\n \\n\\n \\n\\n \\n\\n \\n\\nDevina Hana Azhara \\n\\n2106751032 \\n\\nManajemen Bisnis B \\n\\n \\n\\n \\n\\n \\n\\nPROGRAM STUDI SITEM INFORMASI \\n\\nFAKULTAS ILMU KOMPUTER \\n\\nUNIVERSITAS INDONESIA 2021/2022  \\n\\n\\n\\n\\n\\n \\n \\n\\n \\n\\nA.\\nTI_B_DevinaHanaAzhara_2106751032.pdf\", \"id\": null, \"title\": null, \"filepath\": \"TI_B_DevinaHanaAzhara_2106751032.pdf\", \"url\": null, \"metadata\": {\"chunking\": \"orignal document size=9810. Scores=0.37257177 and None.Org Highlight count=1.Filtering to highlight size=108\"}, \"chunk_id\": \"0\"}, {\"content\": \"Slickwrite\\n87.38k\\nWhitesmoke\\n242.28K\\nNounplus\\n183.47K\\nGinger\\n2,48M\\nProwriting aid\\n1.81M\\n\\nMicrosoft word : 3m + 5m\\nGdocs : 4m + 3m\\n\\nWord Indonesia \\nAppstore: \\nPlaystore: \\n\\n\\n\\n\\nMonthly active user\\nMicrosoft word : 9,5M+\\nGoogle docs : 11M+\\nGrammarly: 3,4M+\\n\\n\\tNama Aplikasi atau Situs Web\\n\\tRata-Rata Pengguna Bulanan\\n\\n\\tDocs.google.com\\n\\t400.000.000+\\n\\n\\tGrammarly.com\\n\\t27.000.000+\\n\\n\\tMicrosoft Word\\n\\t9.500.000+\\n\\n\\tGingersoftware.com\\n\\t3.000.000+\\n\\n\\tProwritingaid.com\\n\\t735.000+\\n\\n\\tWhitesmoke.com\\n\\t140.000+\\n\\n\\tTotal\\n\\t440.375.000+\\n\\n\\n\\n\\tNama Aplikasi atau Situs Web\\n\\tRata-Rata Pengguna Bulanan\\n\\n\\tDocs.google.com\\n\\t30.000.000+\\n\\n\\tGrammarly.com\\n\\t502.000+\\n\\n\\tTotal\\n\\t30.502.000+\\n\\n\\n\\n\\nMahasiswa Terdaftar 8.483.213\\nMurid SMA di Indonesia 4 976 127\\nDosen di Indonesia 312.890\\nGuru di Indonesia 321 939\\nPekerja formal di Indonesia 53.140.775\\nUsia 16-46 tahun pengguna internet: 66,2% \\n\\n\\n\\n\\n2021_compressed\\nhttps://andi.link/wp-content/uploads/2021/08/Hootsuite-We-are-Social-Indonesian-Digital-Report-2021_compressed.pdf\\nfile:///C:/Users/devina\\nBusiness plan.docx\", \"id\": null, \"title\": null, \"filepath\": \"Business plan.docx\", \"url\": \"https://digiservebytelkom.sharepoint.com/sites/MySite/A%20Test/_layouts/15/Doc.aspx?sourcedoc=%7B2A20D5D2-31D3-401E-87F7-092804517C7B%7D &file =Business%20plan.docx &action =default &mobileredirect =true\", \"metadata\": {\"chunking\": \"orignal document size=6952. Scores=0.19020568 and None.Org Highlight count=1.Filtering to highlight size=443\"}, \"chunk_id\": \"0\"}], \"intent\": \"[\\\"give me documents about Devina's university assignment\\\"]\"}"
+                },
+                {
+                    "role": "assistant",
+                    "content": "I found three documents related to Devina's university assignment. The first two documents are titled \"Tugas Individu Manajemen Bisnis\" and contain the same content. The third document is titled \"Business plan.docx\" and is located in the file path \"C:/Users/devina\". Unfortunately, I cannot access the file as it is located on a local machine. [doc1][doc2][doc3]"
+                }
+            ]
+        }
+    ]
+}
