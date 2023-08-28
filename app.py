@@ -183,11 +183,11 @@ def stream_with_data(body, headers, endpoint):
     }
     try:
         with s.post(endpoint, json=body, headers=headers, stream=True) as r:
-            #print("r")
-            #print(r)
+            print("r")
+            print(r)
             for line in r.iter_lines(chunk_size=10):
-                #print("line")
-                #print(line)
+                print("line")
+                print(line)
                 if line:
                     lineJson = json.loads(line.lstrip(b'data:').decode('utf-8'))
                     if 'error' in lineJson:

@@ -1,0 +1,155 @@
+{
+    "@odata.context": "https://gptkb-iemahjtqjllpc.search.windows.net/$metadata#indexes/$entity",
+    "@odata.etag": "\"0x8DB9E064E929D06\"",
+    "name": "gptkbindex",
+    "defaultScoringProfile": null,
+    "fields": [
+      {
+        "name": "id",
+        "type": "Edm.String",
+        "searchable": false,
+        "filterable": false,
+        "retrievable": true,
+        "sortable": false,
+        "facetable": false,
+        "key": true,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchConfiguration": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "content",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": false,
+        "retrievable": true,
+        "sortable": false,
+        "facetable": false,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": "en.microsoft",
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchConfiguration": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "embedding",
+        "type": "Collection(Edm.Single)",
+        "searchable": true,
+        "filterable": false,
+        "retrievable": true,
+        "sortable": false,
+        "facetable": false,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": 1536,
+        "vectorSearchConfiguration": "default",
+        "synonymMaps": []
+      },
+      {
+        "name": "category",
+        "type": "Edm.String",
+        "searchable": false,
+        "filterable": true,
+        "retrievable": true,
+        "sortable": false,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchConfiguration": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "sourcepage",
+        "type": "Edm.String",
+        "searchable": false,
+        "filterable": true,
+        "retrievable": true,
+        "sortable": false,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchConfiguration": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "sourcefile",
+        "type": "Edm.String",
+        "searchable": false,
+        "filterable": true,
+        "retrievable": true,
+        "sortable": false,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchConfiguration": null,
+        "synonymMaps": []
+      }
+    ],
+    "scoringProfiles": [],
+    "corsOptions": null,
+    "suggesters": [],
+    "analyzers": [],
+    "normalizers": [],
+    "tokenizers": [],
+    "tokenFilters": [],
+    "charFilters": [],
+    "encryptionKey": null,
+    "similarity": {
+      "@odata.type": "#Microsoft.Azure.Search.BM25Similarity",
+      "k1": null,
+      "b": null
+    },
+    "semantic": {
+      "defaultConfiguration": null,
+      "configurations": [
+        {
+          "name": "default",
+          "prioritizedFields": {
+            "titleField": null,
+            "prioritizedContentFields": [
+              {
+                "fieldName": "content"
+              }
+            ],
+            "prioritizedKeywordsFields": []
+          }
+        }
+      ]
+    },
+    "vectorSearch": {
+      "algorithmConfigurations": [
+        {
+          "name": "default",
+          "kind": "hnsw",
+          "hnswParameters": {
+            "metric": "cosine",
+            "m": 4,
+            "efConstruction": 400,
+            "efSearch": 500
+          }
+        }
+      ]
+    }
+  }
